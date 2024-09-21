@@ -43,7 +43,7 @@ Getting Started
 
 #To view the project:
 
-Clone this repository using git clone https://github.com/your-username/sugar-land-theater.git.
+Clone this repository using git clone https://github.com/Naveena-V-18/sugar-land-theater.git.
 Open index.html in your web browser.
 Contribution
 Feel free to fork this repository and submit pull requests for any enhancements or bug fixes
