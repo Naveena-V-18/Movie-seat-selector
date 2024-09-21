@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="style.css">
+    <title>SugarLand Theaters - Seat Booking</title>
+    <link rel="icon" href="https://www.clipartmax.com/png/middle/8-85861_movie-theatre-icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <h1>SugarLand Theaters</h1>
+        <h2>Select Your Seats!</h2>
+        <div class="seat-map" id="seat-map">
+            <!-- Seats Grid -->
+            <div class="seat occupied" onclick="alert('This seat is occupied!')"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat occupied" onclick="alert('This seat is occupied!')"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat occupied" onclick="alert('This seat is occupied!')"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat occupied" onclick="alert('This seat is occupied!')"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+            <div class="seat" onclick="toggleSeat(this)"></div>
+        </div>
+        <div class="summary">
+            <h3>Selected Seats: <span id="selected-seats">0</span></h3>
+            <button id="book-button">Book Seats</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
