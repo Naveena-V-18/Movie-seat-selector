@@ -43,8 +43,8 @@ Getting Started
 
 #To view the project:
 
-Clone this repository using git clone https://github.com/Naveena-V-18/sugar-land-theater.git.
-Open index.html in your web browser.
+https://naveena-v-18.github.io/Movie-seat-selector/
+
 Contribution
 Feel free to fork this repository and submit pull requests for any enhancements or bug fixes
 
